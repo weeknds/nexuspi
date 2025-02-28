@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <style>
+    .logo-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: bold; }
+    .pi-symbol { fill: #4a69bd; }
+    .circle { fill: #4a69bd; fill-opacity: 0.1; stroke: #4a69bd; stroke-width: 3; }
+    .nexus-text { fill: #4a69bd; }
+    .pi-text { fill: #4a69bd; }
+  </style>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" class="circle" />
+  
+  <!-- Pi Symbol -->
+  <g class="pi-symbol">
+    <path d="M100 55 L125 55 L125 140 L115 140 L115 65 L85 65 L85 140 L75 140 L75 65 L55 65 L55 55 L100 55 Z" />
+  </g>
+  
+  <!-- Text -->
+  <g>
+    <text x="100" y="170" text-anchor="middle" class="logo-text nexus-text" font-size="28">NEXUS</text>
+    <text x="155" y="170" text-anchor="middle" class="logo-text pi-text" font-size="28">Pi</text>
+  </g>
+</svg> 
